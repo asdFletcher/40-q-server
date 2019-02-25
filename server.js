@@ -9,7 +9,7 @@ const db = new Q('database');
 // database rooms
 db.monitorEvent('create');
 db.monitorEvent('update');
-db.monitorEvent('delete');
+db.monitorEvent('destroy');
 
 // setTimeout( ()=>{
 //   Q.stop();
